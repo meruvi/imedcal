@@ -13,7 +13,6 @@ export class InfoPaginaService {
   equipo: any[] = [];
 
   constructor(private http: HttpClient) {
-    console.log('servicio cargado infoPagina');
 
     this.cargarInfo();
     this.cargarEquipo();
