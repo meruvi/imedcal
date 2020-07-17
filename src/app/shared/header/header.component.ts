@@ -9,6 +9,8 @@ import { Router } from '@angular/router';
 })
 export class HeaderComponent implements OnInit {
 
+    menu = false;
+
   constructor(public infoServicio: InfoPaginaService,
               private router: Router) { }
 
@@ -20,8 +22,17 @@ export class HeaderComponent implements OnInit {
     if (termino.length <= 0) {
       return;
     }
-
+    this.hideMenu();
     this.router.navigate(['/search', termino]);
+  }
+
+  hideMenu() {
+    this.menu = false;
+  }
+
+  showMenu() {
+    console.log('show');
+    this.menu = !this.menu;
   }
 
 }
