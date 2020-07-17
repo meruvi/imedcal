@@ -1,0 +1,12 @@
+.banner-main{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-title{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #fffa;
+}

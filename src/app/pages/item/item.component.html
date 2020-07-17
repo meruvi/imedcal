@@ -1,10 +1,11 @@
 <section *ngIf="producto" class="ae-container-fluid ae-container-fluid--full">
-    <header [ngStyle]="{ 'background-image': 'url(assets/productos/'+ itemId +'/main.jpg)' }" class="rk-portfolio-cover  item-inside-1">
-      <div class="item-inside__meta">
-        <h1 class="ae-u-bolder rk-portfolio-title ">{{ producto.producto }}</h1>
-        <p class="ae-theta rk-portfolio-category ">{{ producto.categoria }}</p>
-      </div>
-    </header>
+    <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner banner-main">
+        <div class="ae-grid__item item-lg--auto"><img src="assets/productos/{{ itemId }}/main.jpg" alt="Urku Portfolio"></div>
+        <div class="item-inside__meta banner-title">
+            <h1 class="ae-u-bolder rk-portfolio-title ">{{ producto.producto }}</h1>
+            <p class="ae-theta rk-portfolio-category ">{{ producto.categoria }}</p>
+        </div>
+    </div>
     <div class="ae-container-fluid">
       <div class="ae-grid ae-grid--collapse rk-portfolio-info ">
         <div class="ae-grid__item item-lg-8 item-sm--center au-xs-ta-center au-lg-ta-left">
