@@ -1,0 +1,76 @@
+[ {
+  "categoria" : "Antiviral",
+  "cod" : "prod-1",
+  "titulo" : "Aciclovir 200 mg",
+  "url" : "project-1"
+}, {
+  "categoria" : "Solución inyectable",
+  "cod" : "prod-2",
+  "titulo" : "Adine 4 mg / 4 mL",
+  "url" : "project-2"
+}, {
+  "categoria" : "Antibiótico",
+  "cod" : "prod-3",
+  "titulo" : "Adroxef 250 mg / 5 mL",
+  "url" : "project-3"
+}, {
+  "categoria" : "Antihipertensivo",
+  "cod" : "prod-4",
+  "titulo" : "Alfadoxin 4 mg",
+  "url" : "project-4"
+}, {
+  "categoria" : "Tratamiento del acné",
+  "cod" : "prod-5",
+  "titulo" : "Acneral 10 mg",
+  "url" : "project-5"
+}, {
+  "categoria" : "Antiácido",
+  "cod" : "prod-6",
+  "titulo" : "Aluminio hidróxido 6%",
+  "url" : "project-6"
+}, {
+  "categoria" : "Antibiótico",
+  "cod" : "prod-7",
+  "titulo" : "Amobiotic 500 mg / 5 mL",
+  "url" : "project-7"
+}, {
+  "categoria" : "Comprimidos recubiertos",
+  "cod" : "prod-8",
+  "titulo" : "Anbax",
+  "url" : "project-8"
+}, {
+  "categoria" : "Antibacteriano",
+  "cod" : "prod-9",
+  "titulo" : "Auxxil 750 mg",
+  "url" : "project-9"
+}, {
+  "categoria" : "Solución concentrada",
+  "cod" : "prod-10",
+  "titulo" : "Bendeka 100 mg / 4mL",
+  "url" : "project-10"
+}, {
+  "categoria" : "Solución inyectable",
+  "cod" : "prod-11",
+  "titulo" : "Bortezomib 3,5 mg",
+  "url" : "project-11"
+}, {
+  "categoria" : "Analgésico",
+  "cod" : "prod-12",
+  "titulo" : "Burten 10 mg",
+  "url" : "project-12"
+}, {
+  "categoria" : "Agente antihipocalcémico",
+  "cod" : "prod-13",
+  "titulo" : "Calcefor D",
+  "url" : "project-13"
+}, {
+  "categoria" : "Antihistamínico",
+  "cod" : "prod-14",
+  "titulo" : "Codetol pm",
+  "url" : "project-14"
+}, {
+  "categoria" : "Solución oral",
+  "cod" : "prod-15",
+  "titulo" : "Dolgex 100 mg / 5 mL",
+  "url" : "project-15"
+} ]
