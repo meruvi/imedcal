@@ -9,7 +9,7 @@
     <div class="ae-container-fluid ae-container-fluid--inner">
       <div class="ae-grid ae-grid--collapse rk-portfolio-info ">
         <div class="ae-grid__item item-md-8 item-sm--center au-xs-ta-center au-md-ta-left">
-          <h2 class="rk-portfolio-inner-title ">{{ producto.categoria }}</h2>
+          <h2 class="rk-portfolio-inner-title ">{{ producto.producto }}</h2>
         </div>
         <div class="ae-grid__item item-md-4 au-xs-ta-center au-md-ta-right rk-portfolio-details">
           <p class="rk-portfolio-inner-client "><span class="ae-lambda">Client: </span><span class="ae-u-bolder">Agency Design Studio</span></p>
@@ -21,92 +21,28 @@
 
     <div class="ae-container-fluid ae-container-fluid--inner rk-portfolio--inner">
 
-      <div class="ae-grid ae-grid--collapse au-lg-ptp-1">
-        <div class="ae-grid__item item-lg-6">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
-        <div class="ae-grid__item item-lg-5 item-lg--offset-1">
-            <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
-          </div>
-      </div>
-      
       <div class="ae-grid ae-grid--reverse ae-grid--collapse au-lg-ptp-1 ">
         <div class="ae-grid__item item-lg-6 item-lg--offset-1">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
+            <p class="ae-u-bolder">Resumen</p>
+          <p>{{ producto.resumen }}</p>
         </div>
         <div class="ae-grid__item item-lg-5">
-          <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
+          <img src="assets/productos/{{ itemId }}/pic-1.jpg" alt="Urku Portfolio">
         </div>
       </div>
 
       <div class="ae-grid ae-grid--collapse au-lg-ptp-1">
-        <div class="ae-grid__item item-lg-6">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
-        <div class="ae-grid__item item-lg-5 item-lg--offset-1">
-            <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
-          </div>
-      </div>
-
-      <div class="ae-grid ae-grid--reverse ae-grid--collapse au-lg-ptp-1 ">
-        <div class="ae-grid__item item-lg-6 item-lg--offset-1">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
         <div class="ae-grid__item item-lg-5">
-          <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
+            <p class="ae-u-bolder">{{ producto.subtitulo1 }}</p>
+          <p>{{ producto.desc1 }}</p>
         </div>
-      </div>
-
-      <div class="ae-grid ae-grid--collapse au-lg-ptp-1">
-        <div class="ae-grid__item item-lg-6">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
-        <div class="ae-grid__item item-lg-5 item-lg--offset-1">
-            <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
+        <div class="ae-grid__item item-lg-5 item-lg--offset-2">
+            <p class="ae-u-bolder">{{ producto.subtitulo2 }}</p>
+          <p>{{ producto.desc2 }}</p>
           </div>
-      </div>
-
-      <div class="ae-grid ae-grid--reverse ae-grid--collapse au-lg-ptp-1 ">
-        <div class="ae-grid__item item-lg-6 item-lg--offset-1">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
-        <div class="ae-grid__item item-lg-5">
-          <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
-        </div>
-      </div>
-
-      <div class="ae-grid ae-grid--collapse au-lg-ptp-1">
-        <div class="ae-grid__item item-lg-6">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
-        <div class="ae-grid__item item-lg-5 item-lg--offset-1">
+        <!-- <div class="ae-grid__item item-lg-5 item-lg--offset-1">
             <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
-          </div>
-      </div>
-
-      <div class="ae-grid ae-grid--reverse ae-grid--collapse au-lg-ptp-1 ">
-        <div class="ae-grid__item item-lg-6 item-lg--offset-1">
-            <p class="ae-u-bolder">Right Box Small Text</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-          <p class="au-mb-3">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit <br>in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>          
-        </div>
-        <div class="ae-grid__item item-lg-5">
-          <img src="assets/productos/{{ itemId }}/pic-2.jpg" alt="Urku Portfolio">
-        </div>
+          </div> -->
       </div>
 
     </div>
