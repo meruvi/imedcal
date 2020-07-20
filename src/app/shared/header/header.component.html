@@ -12,12 +12,21 @@
       </svg>
     </label>
     <div class="ae-container-fluid rk-topbar">
-      <h1 class="rk-logo"><a routerLink="home"><img src="assets/img/header/logo.png" width="100" rel="Logo Empresa"/></a></h1>
+      <h1 class="rk-logo"><a routerLink="home"><img src="assets/img/header/logo_imedcal_sin_fondo.png" width="30" rel="Logo Empresa"/><span>{{ infoServicio.info.titulo }}</span></a></h1>
+      <!-- <h1 class="rk-logo"><a routerLink="home">{{ infoServicio.info.titulo }}</a></h1> -->
       <nav class="rk-navigation">
         <ul class="rk-menu">
           <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="home" class="rk-menu__link">Inicio</a>
           </li>
-          <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="about" class="rk-menu__link">Acerca de</a>
+          <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="" class="rk-menu__link">Sucursales</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="" class="rk-menu__link">Productos</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="" class="rk-menu__link">Servicios</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="" class="rk-menu__link">Contactos</a>
+          </li>
+          <li routerLinkActive="active" class="rk-menu__item"><a (click)="hideMenu()" routerLink="about" class="rk-menu__link">Quienes somos</a>
           </li>
         </ul>
         <div class="rk-search">
