@@ -10,6 +10,12 @@ import { AboutComponent } from './pages/about/about.component';
 import { ItemComponent } from './pages/item/item.component';
 import { AppRoutingModule } from './app-routing.module';
 import { ShearchComponent } from './pages/shearch/shearch.component';
+import { BranchComponent } from './pages/branch/branch.component';
+import { ProductComponent } from './pages/product/product.component';
+import { ServiceComponent } from './pages/service/service.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { GCarouselComponent } from './components/g-carousel/g-carousel.component';
 
 @NgModule({
   declarations: [
@@ -19,12 +25,18 @@ import { ShearchComponent } from './pages/shearch/shearch.component';
     PortafolioComponent,
     AboutComponent,
     ItemComponent,
-    ShearchComponent
+    ShearchComponent,
+    BranchComponent,
+    GCarouselComponent,
+    ProductComponent,
+    ServiceComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -233,6 +233,12 @@ body {
   margin-bottom: 2rem;
 }
 
+.rk-footer-p {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    margin-top: 3.5rem;
+  }
+
 .rk-footer__text {
   color: #787878;
   font-size: .75rem;
