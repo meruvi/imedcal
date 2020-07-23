@@ -59,8 +59,9 @@ export class ProductosService {
     this.productos.forEach( prod => {
 
       const tituloLower = prod.titulo.toLowerCase();
+      const categoriaLower = prod.categoria.toLowerCase();
 
-      if ( prod.categoria.indexOf( termino ) >= 0 || tituloLower.indexOf( termino ) >= 0) {
+      if ( categoriaLower.indexOf( termino ) >= 0 || tituloLower.indexOf( termino ) >= 0) {
         this.productosFiltrado.push( prod );
       }
     });
