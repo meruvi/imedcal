@@ -44,7 +44,7 @@ body {
   position: static;
 }
 .top-fixed .rk-main {
-  padding-top: 8.5rem;
+  padding-top: 7rem;
 }
 @media (min-width: 64em) {
   .rk-main {
@@ -77,8 +77,8 @@ body {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
           justify-content: space-between;
-  padding-bottom: 3.3rem;
-  padding-top: 2.8rem;
+  padding-bottom: 1.3rem;
+  padding-top: 1.8rem;
 }
 @media (min-width: 64em) {
   .rk-topbar {
@@ -117,7 +117,7 @@ body {
   -webkit-align-self: flex-start;
   -ms-flex-item-align: start;
           align-self: flex-start;
-  margin-bottom: 3.4rem;
+  margin-bottom: 0.4rem;
   margin-left: 7.7rem;
   padding-top: .16rem;
   position: relative;
@@ -229,9 +229,15 @@ body {
 }
 
 .rk-footer {
-  margin-top: 10.5rem;
+  margin-top: 3.5rem;
   margin-bottom: 2rem;
 }
+
+.rk-footer-p {
+    padding-top: 3.5rem;
+    padding-bottom: 2rem;
+    margin-top: 3.5rem;
+  }
 
 .rk-footer__text {
   color: #787878;
@@ -534,7 +540,7 @@ body {
   -webkit-align-items: center;
   -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(255, 255, 255, .75);
+  background-color: rgba(0, 0, 0, .5);
   bottom: 0;
   color: #202020;
   display: -webkit-box;
@@ -565,10 +571,12 @@ body {
 .item-meta h2 {
   font-size: 2.25em;
   font-weight: 700;
+  color: #fff;
 }
 .item-meta p {
   font-size: 1.5em;
   margin-bottom: 0;
+  color: #fff;
 }
 @media (min-width: 64em) {
   .item-meta {
@@ -1982,7 +1990,7 @@ body {
   color: #a0a0a0;
 }
 .rk-menu__link {
-  padding-bottom: 4.2rem;
+  padding-bottom: 2.2rem;
 }
 .rk-menu__sub {
   background-color: white;
